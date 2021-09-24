@@ -22,9 +22,10 @@ SW   [PB5]
  +-- [PB4]
 ```
 
-- Run program, push PB0 or PA11 button. Built-in LED will lit:
--- PB0  ... 1 time
--- PA11 ... 2 times
+Run program, push PB0 or PA11 button. Built-in LED will lit:
+
++ PB0  ... 1 time
++ PA11 ... 2 times
 
 # How to use
 
