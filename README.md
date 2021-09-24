@@ -35,7 +35,9 @@ Run program, push PB0 or PA11 button. Built-in LED will lit:
 
 while (1) {
 		if (Button_Loop(0) == BUTTON_CLICKED) {  // call Button_Loop() function several timmes. The status will be return.
-    // any procedure for clicking PB0.
+                        // any procedure for clicking PB0.
+    			Button_Init(0, GPIOB, GPIO_PIN_0); // to clear button #0 status.
+
 		}
 }
 ```
