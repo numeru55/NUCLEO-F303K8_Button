@@ -41,3 +41,8 @@ while (1) {
 }
 ```
 
+# Notice
+
+- The button(s) is expected as GND connection with pull-up.  L=PUSH, H=PULL
+- This program recognize when "Off-Trigger."
+- PB4 is L Output. So equal to GND. 
