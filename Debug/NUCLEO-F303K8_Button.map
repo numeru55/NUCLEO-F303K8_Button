@@ -16,7 +16,7 @@ Common symbol       size              file
 
 uwTick              0x4               ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
 pFlash              0x20              ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.o
-Button_buffer       0x78              ./Core/Src/main.o
+Button_buffer       0x78              ./Core/Src/Button_STM32.o
 huart2              0x84              ./Core/Src/main.o
 
 Discarded input sections
@@ -32,6 +32,48 @@ Discarded input sections
  .ARM.exidx     0x0000000000000000       0x10 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x1c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .group         0x0000000000000000        0xc ./Core/Src/Button_STM32.o
+ .text          0x0000000000000000        0x0 ./Core/Src/Button_STM32.o
+ .data          0x0000000000000000        0x0 ./Core/Src/Button_STM32.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/Button_STM32.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
@@ -74,6 +116,45 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./Core/Src/main.o
  .data          0x0000000000000000        0x0 ./Core/Src/main.o
  .bss           0x0000000000000000        0x0 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0xaa8 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x151 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x28 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0xdf ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0xf07 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000    0x10be0 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/main.o
+ .debug_macro   0x0000000000000000     0x3540 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x55 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x8f9 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x304 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x1b6 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x11b ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x1d5 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x1bc ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x57 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0xc5 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x19f ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x22c ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x5b ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0xa5 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x81 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0xd3 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x5a5 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x44 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000      0x285 ./Core/Src/main.o
+ .debug_macro   0x0000000000000000       0x40 ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/stm32f3xx_hal_msp.o
  .group         0x0000000000000000        0xc ./Core/Src/stm32f3xx_hal_msp.o
  .group         0x0000000000000000        0xc ./Core/Src/stm32f3xx_hal_msp.o
@@ -2621,6 +2702,7 @@ Linker script and memory map
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crti.o
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD ./Core/Src/Button_STM32.o
 LOAD ./Core/Src/main.o
 LOAD ./Core/Src/stm32f3xx_hal_msp.o
 LOAD ./Core/Src/stm32f3xx_it.o
@@ -2682,10 +2764,10 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .text          0x0000000008000188       0x40 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.text*)
  .text.Button_Init
-                0x00000000080001c8       0x58 ./Core/Src/main.o
+                0x00000000080001c8       0x58 ./Core/Src/Button_STM32.o
                 0x00000000080001c8                Button_Init
  .text.Button_Loop
-                0x0000000008000220      0x12c ./Core/Src/main.o
+                0x0000000008000220      0x12c ./Core/Src/Button_STM32.o
                 0x0000000008000220                Button_Loop
  .text.main     0x000000000800034c       0xe4 ./Core/Src/main.o
                 0x000000000800034c                main
@@ -2996,12 +3078,13 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .bss           0x000000002000000c       0x1c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
  .bss.Button_State
-                0x0000000020000028        0xa ./Core/Src/main.o
+                0x0000000020000028        0xa ./Core/Src/Button_STM32.o
                 0x0000000020000028                Button_State
  *(COMMON)
  *fill*         0x0000000020000032        0x2 
- COMMON         0x0000000020000034       0xfc ./Core/Src/main.o
+ COMMON         0x0000000020000034       0x78 ./Core/Src/Button_STM32.o
                 0x0000000020000034                Button_buffer
+ COMMON         0x00000000200000ac       0x84 ./Core/Src/main.o
                 0x00000000200000ac                huart2
  COMMON         0x0000000020000130        0x4 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
                 0x0000000020000130                uwTick
@@ -3034,182 +3117,194 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .ARM.attributes
                 0x000000000000001e       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .ARM.attributes
-                0x0000000000000052       0x34 ./Core/Src/main.o
+                0x0000000000000052       0x34 ./Core/Src/Button_STM32.o
  .ARM.attributes
-                0x0000000000000086       0x34 ./Core/Src/stm32f3xx_hal_msp.o
+                0x0000000000000086       0x34 ./Core/Src/main.o
  .ARM.attributes
-                0x00000000000000ba       0x34 ./Core/Src/stm32f3xx_it.o
+                0x00000000000000ba       0x34 ./Core/Src/stm32f3xx_hal_msp.o
  .ARM.attributes
-                0x00000000000000ee       0x34 ./Core/Src/system_stm32f3xx.o
+                0x00000000000000ee       0x34 ./Core/Src/stm32f3xx_it.o
  .ARM.attributes
-                0x0000000000000122       0x21 ./Core/Startup/startup_stm32f303k8tx.o
+                0x0000000000000122       0x34 ./Core/Src/system_stm32f3xx.o
  .ARM.attributes
-                0x0000000000000143       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+                0x0000000000000156       0x21 ./Core/Startup/startup_stm32f303k8tx.o
  .ARM.attributes
-                0x0000000000000177       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+                0x0000000000000177       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
  .ARM.attributes
-                0x00000000000001ab       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+                0x00000000000001ab       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
  .ARM.attributes
-                0x00000000000001df       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+                0x00000000000001df       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
  .ARM.attributes
-                0x0000000000000213       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+                0x0000000000000213       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
  .ARM.attributes
-                0x0000000000000247       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x0000000000000247       0x34 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
  .ARM.attributes
-                0x000000000000027b       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                0x000000000000027b       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x00000000000002af       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x00000000000002af       0x34 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000002e3       0x1e /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/crtn.o
 OUTPUT(NUCLEO-F303K8_Button.elf elf32-littlearm)
 LOAD linker stubs
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m+fp/hard/libgcc.a
 
-.debug_info     0x0000000000000000     0x89b0
- .debug_info    0x0000000000000000      0xc8a ./Core/Src/main.o
- .debug_info    0x0000000000000c8a      0x9c8 ./Core/Src/stm32f3xx_hal_msp.o
- .debug_info    0x0000000000001652      0x225 ./Core/Src/stm32f3xx_it.o
- .debug_info    0x0000000000001877      0x49a ./Core/Src/system_stm32f3xx.o
- .debug_info    0x0000000000001d11       0x22 ./Core/Startup/startup_stm32f303k8tx.o
- .debug_info    0x0000000000001d33      0x7b3 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
- .debug_info    0x00000000000024e6      0xbdf ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
- .debug_info    0x00000000000030c5      0x83d ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
- .debug_info    0x0000000000003902     0x15b5 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
- .debug_info    0x0000000000004eb7     0x3af9 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+.debug_info     0x0000000000000000     0x8c2a
+ .debug_info    0x0000000000000000      0x36a ./Core/Src/Button_STM32.o
+ .debug_info    0x000000000000036a      0xb9a ./Core/Src/main.o
+ .debug_info    0x0000000000000f04      0x9c8 ./Core/Src/stm32f3xx_hal_msp.o
+ .debug_info    0x00000000000018cc      0x225 ./Core/Src/stm32f3xx_it.o
+ .debug_info    0x0000000000001af1      0x49a ./Core/Src/system_stm32f3xx.o
+ .debug_info    0x0000000000001f8b       0x22 ./Core/Startup/startup_stm32f303k8tx.o
+ .debug_info    0x0000000000001fad      0x7b3 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+ .debug_info    0x0000000000002760      0xbdf ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+ .debug_info    0x000000000000333f      0x83d ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+ .debug_info    0x0000000000003b7c     0x15b5 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+ .debug_info    0x0000000000005131     0x3af9 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
 
-.debug_abbrev   0x0000000000000000     0x12c7
- .debug_abbrev  0x0000000000000000      0x293 ./Core/Src/main.o
- .debug_abbrev  0x0000000000000293      0x1ac ./Core/Src/stm32f3xx_hal_msp.o
- .debug_abbrev  0x000000000000043f       0xd2 ./Core/Src/stm32f3xx_it.o
- .debug_abbrev  0x0000000000000511      0x145 ./Core/Src/system_stm32f3xx.o
- .debug_abbrev  0x0000000000000656       0x12 ./Core/Startup/startup_stm32f303k8tx.o
- .debug_abbrev  0x0000000000000668      0x1ed ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
- .debug_abbrev  0x0000000000000855      0x313 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
- .debug_abbrev  0x0000000000000b68      0x1e8 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
- .debug_abbrev  0x0000000000000d50      0x2c4 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
- .debug_abbrev  0x0000000000001014      0x2b3 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+.debug_abbrev   0x0000000000000000     0x13e5
+ .debug_abbrev  0x0000000000000000      0x17c ./Core/Src/Button_STM32.o
+ .debug_abbrev  0x000000000000017c      0x235 ./Core/Src/main.o
+ .debug_abbrev  0x00000000000003b1      0x1ac ./Core/Src/stm32f3xx_hal_msp.o
+ .debug_abbrev  0x000000000000055d       0xd2 ./Core/Src/stm32f3xx_it.o
+ .debug_abbrev  0x000000000000062f      0x145 ./Core/Src/system_stm32f3xx.o
+ .debug_abbrev  0x0000000000000774       0x12 ./Core/Startup/startup_stm32f303k8tx.o
+ .debug_abbrev  0x0000000000000786      0x1ed ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+ .debug_abbrev  0x0000000000000973      0x313 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+ .debug_abbrev  0x0000000000000c86      0x1e8 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+ .debug_abbrev  0x0000000000000e6e      0x2c4 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+ .debug_abbrev  0x0000000000001132      0x2b3 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
 
-.debug_aranges  0x0000000000000000      0x618
+.debug_aranges  0x0000000000000000      0x630
  .debug_aranges
-                0x0000000000000000       0x50 ./Core/Src/main.o
+                0x0000000000000000       0x28 ./Core/Src/Button_STM32.o
  .debug_aranges
-                0x0000000000000050       0x30 ./Core/Src/stm32f3xx_hal_msp.o
+                0x0000000000000028       0x40 ./Core/Src/main.o
  .debug_aranges
-                0x0000000000000080       0x60 ./Core/Src/stm32f3xx_it.o
+                0x0000000000000068       0x30 ./Core/Src/stm32f3xx_hal_msp.o
  .debug_aranges
-                0x00000000000000e0       0x28 ./Core/Src/system_stm32f3xx.o
+                0x0000000000000098       0x60 ./Core/Src/stm32f3xx_it.o
  .debug_aranges
-                0x0000000000000108       0x28 ./Core/Startup/startup_stm32f303k8tx.o
+                0x00000000000000f8       0x28 ./Core/Src/system_stm32f3xx.o
  .debug_aranges
-                0x0000000000000130       0xe0 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+                0x0000000000000120       0x28 ./Core/Startup/startup_stm32f303k8tx.o
  .debug_aranges
-                0x0000000000000210      0x100 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+                0x0000000000000148       0xe0 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
  .debug_aranges
-                0x0000000000000310       0x58 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+                0x0000000000000228      0x100 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
  .debug_aranges
-                0x0000000000000368       0x88 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+                0x0000000000000328       0x58 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
  .debug_aranges
-                0x00000000000003f0      0x228 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+                0x0000000000000380       0x88 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+ .debug_aranges
+                0x0000000000000408      0x228 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
 
-.debug_ranges   0x0000000000000000      0x5b0
- .debug_ranges  0x0000000000000000       0x40 ./Core/Src/main.o
- .debug_ranges  0x0000000000000040       0x20 ./Core/Src/stm32f3xx_hal_msp.o
- .debug_ranges  0x0000000000000060       0x50 ./Core/Src/stm32f3xx_it.o
- .debug_ranges  0x00000000000000b0       0x18 ./Core/Src/system_stm32f3xx.o
- .debug_ranges  0x00000000000000c8       0x20 ./Core/Startup/startup_stm32f303k8tx.o
- .debug_ranges  0x00000000000000e8       0xd0 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
- .debug_ranges  0x00000000000001b8       0xf0 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
- .debug_ranges  0x00000000000002a8       0x48 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
- .debug_ranges  0x00000000000002f0       0x78 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
- .debug_ranges  0x0000000000000368      0x248 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+.debug_ranges   0x0000000000000000      0x5b8
+ .debug_ranges  0x0000000000000000       0x18 ./Core/Src/Button_STM32.o
+ .debug_ranges  0x0000000000000018       0x30 ./Core/Src/main.o
+ .debug_ranges  0x0000000000000048       0x20 ./Core/Src/stm32f3xx_hal_msp.o
+ .debug_ranges  0x0000000000000068       0x50 ./Core/Src/stm32f3xx_it.o
+ .debug_ranges  0x00000000000000b8       0x18 ./Core/Src/system_stm32f3xx.o
+ .debug_ranges  0x00000000000000d0       0x20 ./Core/Startup/startup_stm32f303k8tx.o
+ .debug_ranges  0x00000000000000f0       0xd0 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+ .debug_ranges  0x00000000000001c0       0xf0 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+ .debug_ranges  0x00000000000002b0       0x48 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+ .debug_ranges  0x00000000000002f8       0x78 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+ .debug_ranges  0x0000000000000370      0x248 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
 
-.debug_macro    0x0000000000000000    0x196bf
- .debug_macro   0x0000000000000000      0x1cd ./Core/Src/main.o
- .debug_macro   0x00000000000001cd      0xaa8 ./Core/Src/main.o
- .debug_macro   0x0000000000000c75      0x151 ./Core/Src/main.o
- .debug_macro   0x0000000000000dc6       0x2e ./Core/Src/main.o
- .debug_macro   0x0000000000000df4       0x28 ./Core/Src/main.o
- .debug_macro   0x0000000000000e1c       0x22 ./Core/Src/main.o
- .debug_macro   0x0000000000000e3e       0x8e ./Core/Src/main.o
- .debug_macro   0x0000000000000ecc       0x51 ./Core/Src/main.o
- .debug_macro   0x0000000000000f1d      0x103 ./Core/Src/main.o
- .debug_macro   0x0000000000001020       0x6a ./Core/Src/main.o
- .debug_macro   0x000000000000108a      0x1df ./Core/Src/main.o
- .debug_macro   0x0000000000001269       0x1c ./Core/Src/main.o
- .debug_macro   0x0000000000001285       0x22 ./Core/Src/main.o
- .debug_macro   0x00000000000012a7       0xdf ./Core/Src/main.o
- .debug_macro   0x0000000000001386      0xf07 ./Core/Src/main.o
- .debug_macro   0x000000000000228d    0x10be0 ./Core/Src/main.o
- .debug_macro   0x0000000000012e6d       0x6d ./Core/Src/main.o
- .debug_macro   0x0000000000012eda     0x3540 ./Core/Src/main.o
- .debug_macro   0x000000000001641a      0x174 ./Core/Src/main.o
- .debug_macro   0x000000000001658e       0x55 ./Core/Src/main.o
- .debug_macro   0x00000000000165e3      0x8f9 ./Core/Src/main.o
- .debug_macro   0x0000000000016edc      0x304 ./Core/Src/main.o
- .debug_macro   0x00000000000171e0      0x1b6 ./Core/Src/main.o
- .debug_macro   0x0000000000017396      0x11b ./Core/Src/main.o
- .debug_macro   0x00000000000174b1      0x1d5 ./Core/Src/main.o
- .debug_macro   0x0000000000017686      0x1bc ./Core/Src/main.o
- .debug_macro   0x0000000000017842       0x34 ./Core/Src/main.o
- .debug_macro   0x0000000000017876       0x3c ./Core/Src/main.o
- .debug_macro   0x00000000000178b2       0x57 ./Core/Src/main.o
- .debug_macro   0x0000000000017909       0xc5 ./Core/Src/main.o
- .debug_macro   0x00000000000179ce      0x19f ./Core/Src/main.o
- .debug_macro   0x0000000000017b6d      0x22c ./Core/Src/main.o
- .debug_macro   0x0000000000017d99       0x5b ./Core/Src/main.o
- .debug_macro   0x0000000000017df4       0xa5 ./Core/Src/main.o
- .debug_macro   0x0000000000017e99       0x81 ./Core/Src/main.o
- .debug_macro   0x0000000000017f1a       0xd3 ./Core/Src/main.o
- .debug_macro   0x0000000000017fed      0x5a5 ./Core/Src/main.o
- .debug_macro   0x0000000000018592       0x44 ./Core/Src/main.o
- .debug_macro   0x00000000000185d6      0x285 ./Core/Src/main.o
- .debug_macro   0x000000000001885b       0x40 ./Core/Src/main.o
- .debug_macro   0x000000000001889b      0x1c1 ./Core/Src/stm32f3xx_hal_msp.o
- .debug_macro   0x0000000000018a5c      0x1cb ./Core/Src/stm32f3xx_it.o
- .debug_macro   0x0000000000018c27      0x1b2 ./Core/Src/system_stm32f3xx.o
- .debug_macro   0x0000000000018dd9      0x1d6 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
- .debug_macro   0x0000000000018faf      0x1b2 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
- .debug_macro   0x0000000000019161      0x1b9 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
- .debug_macro   0x000000000001931a      0x1d6 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
- .debug_macro   0x00000000000194f0      0x1cf ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+.debug_macro    0x0000000000000000    0x19894
+ .debug_macro   0x0000000000000000      0x1d7 ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000001d7      0xaa8 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000000c7f      0x151 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000000dd0       0x2e ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000000dfe       0x28 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000000e26       0x22 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000000e48       0x8e ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000000ed6       0x51 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000000f27      0x103 ./Core/Src/Button_STM32.o
+ .debug_macro   0x000000000000102a       0x6a ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000001094      0x1df ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000001273       0x1c ./Core/Src/Button_STM32.o
+ .debug_macro   0x000000000000128f       0x22 ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000012b1       0xdf ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000001390      0xf07 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000002297    0x10be0 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000012e77       0x6d ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000012ee4     0x3540 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000016424      0x174 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000016598       0x55 ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000165ed      0x8f9 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000016ee6      0x304 ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000171ea      0x1b6 ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000173a0      0x11b ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000174bb      0x1d5 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017690      0x1bc ./Core/Src/Button_STM32.o
+ .debug_macro   0x000000000001784c       0x34 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017880       0x3c ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000178bc       0x57 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017913       0xc5 ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000179d8      0x19f ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017b77      0x22c ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017da3       0x5b ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017dfe       0xa5 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017ea3       0x81 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017f24       0xd3 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000017ff7      0x5a5 ./Core/Src/Button_STM32.o
+ .debug_macro   0x000000000001859c       0x44 ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000185e0      0x285 ./Core/Src/Button_STM32.o
+ .debug_macro   0x0000000000018865       0x40 ./Core/Src/Button_STM32.o
+ .debug_macro   0x00000000000188a5      0x1cb ./Core/Src/main.o
+ .debug_macro   0x0000000000018a70      0x1c1 ./Core/Src/stm32f3xx_hal_msp.o
+ .debug_macro   0x0000000000018c31      0x1cb ./Core/Src/stm32f3xx_it.o
+ .debug_macro   0x0000000000018dfc      0x1b2 ./Core/Src/system_stm32f3xx.o
+ .debug_macro   0x0000000000018fae      0x1d6 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+ .debug_macro   0x0000000000019184      0x1b2 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+ .debug_macro   0x0000000000019336      0x1b9 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+ .debug_macro   0x00000000000194ef      0x1d6 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+ .debug_macro   0x00000000000196c5      0x1cf ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
 
-.debug_line     0x0000000000000000     0x8320
- .debug_line    0x0000000000000000      0x889 ./Core/Src/main.o
- .debug_line    0x0000000000000889      0x72f ./Core/Src/stm32f3xx_hal_msp.o
- .debug_line    0x0000000000000fb8      0x7a4 ./Core/Src/stm32f3xx_it.o
- .debug_line    0x000000000000175c      0x758 ./Core/Src/system_stm32f3xx.o
- .debug_line    0x0000000000001eb4       0x88 ./Core/Startup/startup_stm32f303k8tx.o
- .debug_line    0x0000000000001f3c      0x98d ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
- .debug_line    0x00000000000028c9      0xb75 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
- .debug_line    0x000000000000343e      0xada ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
- .debug_line    0x0000000000003f18     0x1367 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
- .debug_line    0x000000000000527f     0x30a1 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+.debug_line     0x0000000000000000     0x8a06
+ .debug_line    0x0000000000000000      0x774 ./Core/Src/Button_STM32.o
+ .debug_line    0x0000000000000774      0x7fb ./Core/Src/main.o
+ .debug_line    0x0000000000000f6f      0x72f ./Core/Src/stm32f3xx_hal_msp.o
+ .debug_line    0x000000000000169e      0x7a4 ./Core/Src/stm32f3xx_it.o
+ .debug_line    0x0000000000001e42      0x758 ./Core/Src/system_stm32f3xx.o
+ .debug_line    0x000000000000259a       0x88 ./Core/Startup/startup_stm32f303k8tx.o
+ .debug_line    0x0000000000002622      0x98d ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+ .debug_line    0x0000000000002faf      0xb75 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+ .debug_line    0x0000000000003b24      0xada ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+ .debug_line    0x00000000000045fe     0x1367 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+ .debug_line    0x0000000000005965     0x30a1 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
 
-.debug_str      0x0000000000000000    0x96a0d
- .debug_str     0x0000000000000000    0x952de ./Core/Src/main.o
-                                      0x9559f (size before relaxing)
- .debug_str     0x00000000000952de       0x56 ./Core/Src/stm32f3xx_hal_msp.o
+.debug_str      0x0000000000000000    0x96a3d
+ .debug_str     0x0000000000000000    0x94d19 ./Core/Src/Button_STM32.o
+                                      0x94f92 (size before relaxing)
+ .debug_str     0x0000000000094d19      0x5f5 ./Core/Src/main.o
+                                      0x95536 (size before relaxing)
+ .debug_str     0x000000000009530e       0x56 ./Core/Src/stm32f3xx_hal_msp.o
                                       0x95359 (size before relaxing)
- .debug_str     0x0000000000095334       0xbd ./Core/Src/stm32f3xx_it.o
+ .debug_str     0x0000000000095364       0xbd ./Core/Src/stm32f3xx_it.o
                                       0x94efe (size before relaxing)
- .debug_str     0x00000000000953f1       0xbd ./Core/Src/system_stm32f3xx.o
+ .debug_str     0x0000000000095421       0xbd ./Core/Src/system_stm32f3xx.o
                                       0x94e6d (size before relaxing)
- .debug_str     0x00000000000954ae       0x36 ./Core/Startup/startup_stm32f303k8tx.o
+ .debug_str     0x00000000000954de       0x36 ./Core/Startup/startup_stm32f303k8tx.o
                                          0x7e (size before relaxing)
- .debug_str     0x00000000000954e4      0x554 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+ .debug_str     0x0000000000095514      0x554 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
                                       0x954bb (size before relaxing)
- .debug_str     0x0000000000095a38      0x2a2 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+ .debug_str     0x0000000000095a68      0x2a2 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
                                       0x9549c (size before relaxing)
- .debug_str     0x0000000000095cda      0x1ae ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+ .debug_str     0x0000000000095d0a      0x1ae ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
                                       0x9508a (size before relaxing)
- .debug_str     0x0000000000095e88      0x2f7 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+ .debug_str     0x0000000000095eb8      0x2f7 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
                                       0x952db (size before relaxing)
- .debug_str     0x000000000009617f      0x88e ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+ .debug_str     0x00000000000961af      0x88e ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
                                       0x95aeb (size before relaxing)
 
 .comment        0x0000000000000000       0x53
- .comment       0x0000000000000000       0x53 ./Core/Src/main.o
+ .comment       0x0000000000000000       0x53 ./Core/Src/Button_STM32.o
                                          0x54 (size before relaxing)
+ .comment       0x0000000000000053       0x54 ./Core/Src/main.o
  .comment       0x0000000000000053       0x54 ./Core/Src/stm32f3xx_hal_msp.o
  .comment       0x0000000000000053       0x54 ./Core/Src/stm32f3xx_it.o
  .comment       0x0000000000000053       0x54 ./Core/Src/system_stm32f3xx.o
@@ -3219,15 +3314,16 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
  .comment       0x0000000000000053       0x54 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
  .comment       0x0000000000000053       0x54 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
 
-.debug_frame    0x0000000000000000     0x17c0
- .debug_frame   0x0000000000000000       0xf4 ./Core/Src/main.o
- .debug_frame   0x00000000000000f4       0x80 ./Core/Src/stm32f3xx_hal_msp.o
- .debug_frame   0x0000000000000174      0x104 ./Core/Src/stm32f3xx_it.o
- .debug_frame   0x0000000000000278       0x58 ./Core/Src/system_stm32f3xx.o
- .debug_frame   0x00000000000002d0      0x334 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
- .debug_frame   0x0000000000000604      0x428 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
- .debug_frame   0x0000000000000a2c      0x14c ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
- .debug_frame   0x0000000000000b78      0x214 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
- .debug_frame   0x0000000000000d8c      0x9e8 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
- .debug_frame   0x0000000000001774       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
- .debug_frame   0x00000000000017a0       0x20 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+.debug_frame    0x0000000000000000     0x17d0
+ .debug_frame   0x0000000000000000       0x5c ./Core/Src/Button_STM32.o
+ .debug_frame   0x000000000000005c       0xa8 ./Core/Src/main.o
+ .debug_frame   0x0000000000000104       0x80 ./Core/Src/stm32f3xx_hal_msp.o
+ .debug_frame   0x0000000000000184      0x104 ./Core/Src/stm32f3xx_it.o
+ .debug_frame   0x0000000000000288       0x58 ./Core/Src/system_stm32f3xx.o
+ .debug_frame   0x00000000000002e0      0x334 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.o
+ .debug_frame   0x0000000000000614      0x428 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o
+ .debug_frame   0x0000000000000a3c      0x14c ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.o
+ .debug_frame   0x0000000000000b88      0x214 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.o
+ .debug_frame   0x0000000000000d9c      0x9e8 ./Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.o
+ .debug_frame   0x0000000000001784       0x2c /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000000017b0       0x20 /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.macos64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
